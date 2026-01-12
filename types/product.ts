@@ -4,8 +4,6 @@ export type Product = {
   category: string;
   price: number;
   stock: number;
-  rating: number;
-  isAvailable: boolean;
   description: string;
   images: string[];
 };

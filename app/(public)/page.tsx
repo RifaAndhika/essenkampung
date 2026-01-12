@@ -21,38 +21,40 @@ export default function Home() {
       <div className="grid lg:grid-cols-2 gap-24 items-center">
         {/* Copy */}
         <motion.div
-          initial={{ opacity: 0, y: 24 }}
+          initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          className="max-w-xl"
         >
-          <span className="inline-flex items-center gap-2 bg-sky-100 text-sky-700 px-5 py-1.5 rounded-full text-xs font-semibold tracking-wide mb-6">
-            ESSEN KAMPUNG GACOR KANGG!!
-          </span>
-
-          <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-8">
-            ESSEN KAMPUNG MURAH GA MURAHAN <br />
-            <span className="bg-gradient-to-r from-sky-500 via-cyan-400 to-indigo-500 bg-clip-text text-transparent">
-              Performa Ikan Juara
-            </span>
+          <h1 className="inline-flex items-center gap-2 bg-sky-50 text-sky-600 px-4 py-1 rounded-full text-xs font-medium tracking-wide mb-4">
+            ESSEN KAMFUNG PILIHAN ANGLER
           </h1>
 
-          <p className="mb-12 text-lg text-slate-500 max-w-xl">
-            Essen alami kualitas lomba yang membantu meningkatkan nafsu makan,
-            mempercepat pertumbuhan, dan menjaga daya tahan ikan secara optimal.
+          <h3 className="text-3xl md:text-4xl font-semibold leading-snug mb-5 text-slate-800">
+            Murah Tapi Berkualitas <br />
+            <span className="bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent font-bold">
+              Performa Mancing Andal
+            </span>
+          </h3>
+
+          <p className="mb-8 text-base text-slate-500 leading-relaxed">
+            Essen alami dengan standar lomba untuk meningkatkan nafsu makan,
+            mempercepat pertumbuhan, dan menjaga kondisi ikan tetap prima.
           </p>
 
-          <div className="flex flex-wrap gap-6">
+          <div className="flex flex-wrap gap-4">
             <a
               href="#produk"
-              className="px-9 py-4 rounded-full bg-gradient-to-r from-sky-500 to-indigo-500 text-white font-semibold shadow-lg hover:shadow-sky-300/50 hover:-translate-y-0.5 transition"
+              className="px-7 py-3 rounded-full bg-gradient-to-r from-sky-500 to-indigo-500 text-white text-sm font-medium shadow-md hover:shadow-sky-300/40 hover:-translate-y-0.5 transition"
             >
               Lihat Produk
             </a>
+
             <a
               href="#kontak"
-              className="px-9 py-4 rounded-full bg-gradient-to-r from-sky-500 to-indigo-500 text-white font-semibold shadow-lg hover:shadow-sky-300/50 hover:-translate-y-0.5 transition"
+              className="px-7 py-3 rounded-full border border-sky-400/40 text-sky-600 text-sm font-medium hover:bg-sky-50 transition"
             >
-              Beli Disini
+              Beli Sekarang
             </a>
           </div>
         </motion.div>
@@ -96,12 +98,12 @@ export default function Home() {
         transition={{ duration: 0.7 }}
         className="mt-44 scroll-mt-36 text-center"
       >
-        <h2 className="text-4xl md:text-5xl font-bold mb-4">
-          Tingkatkan Performa Ikan Anda Sekarang
+        <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent font-bold">
+          BELI DISINI
         </h2>
         <p className="text-slate-500 mb-12 max-w-2xl mx-auto">
-          Konsultasikan kebutuhan kolam Anda langsung dengan tim kami dan
-          dapatkan rekomendasi essen terbaik secara gratis.
+          Konsultasikan Dan Pembelian Untuk Pemakaian ESSEN KAMFUNG Yang Tepat
+          Sesuai Kebutuhan.
         </p>
 
         <a
@@ -117,7 +119,7 @@ export default function Home() {
             size={22}
             className="group-hover:scale-110 transition"
           />
-          Beli via WhatsApp
+          WhatsApp
         </a>
       </motion.div>
     </section>

@@ -12,11 +12,6 @@ export default function ProductCard({ product }: { product: Product }) {
       className="relative bg-white rounded-3xl shadow-lg overflow-hidden group"
     >
       {/* Badge */}
-      {!product.isAvailable && (
-        <span className="absolute top-4 left-4 z-10 bg-red-500 text-white text-xs px-3 py-1 rounded-full">
-          Sold Out
-        </span>
-      )}
 
       {/* Image */}
       <div className="overflow-hidden">

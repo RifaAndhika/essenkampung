@@ -62,7 +62,7 @@ export default function Navbar() {
           <Link href={link("#home")} className="flex items-center gap-3">
             <Image src="/essen.png" width={44} height={44} alt="Logo" />
             <span className="text-xl font-extrabold bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent">
-              ESSEN KAMPUNG
+              ESSEN KAMFUNG
             </span>
           </Link>
 
