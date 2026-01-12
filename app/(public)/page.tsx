@@ -30,7 +30,7 @@ export default function Home() {
           </span>
 
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-8">
-            Essen Premium <br />
+            ESSEN KAMPUNG MURAH GA MURAHAN <br />
             <span className="bg-gradient-to-r from-sky-500 via-cyan-400 to-indigo-500 bg-clip-text text-transparent">
               Performa Ikan Juara
             </span>
