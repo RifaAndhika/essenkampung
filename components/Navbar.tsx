@@ -58,7 +58,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="fixed top-0 inset-x-0 z-50 bg-white/80 backdrop-blur-xl border-b">
-        <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+        <div className="max-w-7xl mx-auto flex justify-between items-center px-6 h-20">
           <Link href={link("#home")} className="flex items-center gap-3">
             <Image src="/essen.png" width={44} height={44} alt="Logo" />
             <span className="text-xl font-extrabold bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent">

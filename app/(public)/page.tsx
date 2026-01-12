@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="relative overflow-hidden max-w-7xl mx-auto px-6 pt-36 pb-24"
+      className="relative overflow-visible max-w-7xl mx-auto px-6 pt-28 md:pt-32 pb-24 scroll-mt-28"
     >
       {/* Soft background gradients */}
       <div className="absolute inset-0 -z-10">
@@ -26,14 +26,14 @@ export default function Home() {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="max-w-xl"
         >
-          <h1 className="inline-flex items-center gap-2 bg-sky-50 text-sky-600 px-4 py-1 rounded-full text-xs font-medium tracking-wide mb-4">
-            ESSEN KAMFUNG PILIHAN ANGLER
-          </h1>
+          <span className="inline-block text-xs uppercase tracking-widest text-sky-500 font-semibold mb-3">
+            Essen Kampung Pilihan Angler
+          </span>
 
           <h3 className="text-3xl md:text-4xl font-semibold leading-snug mb-5 text-slate-800">
             Murah Tapi Berkualitas <br />
             <span className="bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent font-bold">
-              Performa Mancing Andal
+              Tambah Performa Mancing Biar Gacor
             </span>
           </h3>
 
@@ -70,8 +70,8 @@ export default function Home() {
 
           <Image
             src="/essen.png"
-            width={460}
-            height={460}
+            width={250}
+            height={250}
             alt="Essen Ikan"
             className="relative z-10 drop-shadow-2xl hover:scale-[1.04] transition duration-500"
             priority
@@ -80,12 +80,20 @@ export default function Home() {
       </div>
 
       {/* PRODUK */}
-      <div id="produk" className="mt-44 scroll-mt-36">
+      <div
+        id="produk"
+        className="mt-44 scroll-mt-28
+"
+      >
         <ProductSection />
       </div>
 
       {/* BLOG */}
-      <div id="blog" className="mt-44 scroll-mt-36">
+      <div
+        id="blog"
+        className="mt-44 scroll-mt-28
+"
+      >
         <BlogSection />
       </div>
 
@@ -96,10 +104,11 @@ export default function Home() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7 }}
-        className="mt-44 scroll-mt-36 text-center"
+        className="mt-44 scroll-mt-28
+ text-center"
       >
-        <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent font-bold">
-          BELI DISINI
+        <h2 className="text-3xl md:text-4xl font-semibold mb-3 text-slate-800">
+          Beli Sekarang
         </h2>
         <p className="text-slate-500 mb-12 max-w-2xl mx-auto">
           Konsultasikan Dan Pembelian Untuk Pemakaian ESSEN KAMFUNG Yang Tepat
@@ -107,7 +116,7 @@ export default function Home() {
         </p>
 
         <a
-          href="https://wa.me/6289636411763"
+          href="https://wa.me/6282121907020"
           target="_blank"
           rel="noopener noreferrer"
           className="group inline-flex items-center gap-3 px-12 py-5 rounded-full
