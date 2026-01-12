@@ -39,3 +39,34 @@ body {
   border-radius: 1rem;
   box-shadow: 0 10px 25px rgba(2, 132, 199, 0.15);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+.section-title {
+  @apply text-4xl font-bold mb-10 text-center;
+}
+.btn-primary {
+  @apply bg-gradient-to-r from-sky-500 to-blue-600 text-white px-8 py-3 rounded-2xl shadow-xl hover:opacity-90 transition;
+}
+.btn-outline {
+  @apply border border-sky-500 text-sky-600 px-8 py-3 rounded-2xl hover:bg-sky-50 transition;
+}
+.input {
+  @apply w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-400;
+}
+
+[id] {
+  scroll-margin-top: 120px;
+}
+.btn-primary {
+  @apply bg-gradient-to-r from-sky-500 to-blue-600 text-white px-8 py-3 rounded-2xl shadow-xl hover:opacity-90 transition;
+}
+
+.btn-outline {
+  @apply border border-sky-500 text-sky-600 px-8 py-3 rounded-2xl hover:bg-sky-50 transition;
+}
+
+.section-title {
+  @apply text-4xl font-bold mb-10 text-center;
+}
