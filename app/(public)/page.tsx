@@ -25,7 +25,7 @@ export default function Home() {
           transition={{ duration: 0.6 }}
         >
           <span className="text-xs uppercase tracking-widest text-sky-500 font-semibold">
-            ESSEN IKAN MAS TERBUKTI LAPANGAN
+            ESSEN IKAN GACOR TERBUKTI LAPANGAN
           </span>
 
           <h1 className="text-4xl md:text-5xl font-bold text-slate-800 leading-tight mt-4 mb-6">
@@ -83,17 +83,37 @@ export default function Home() {
       </div>
 
       {/* TRUST */}
-      <div className="mt-24 grid md:grid-cols-3 gap-8 text-center">
-        {["500+ Botol Terjual", "Digunakan di 12 Kota", "Repeat Order 70%"].map(
-          (v, i) => (
+      <div className="mt-28">
+        <h2 className="text-3xl font-bold text-center mb-10 text-slate-800">
+          Testimoni Pengguna
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-8 text-center">
+          {[
+            {
+              title: "25+ Botol Terjual",
+              desc: "Dipakai pemancing harian & lomba",
+            },
+            {
+              title: "Juara Lomba",
+              desc: "Sudah dipakai dari alam, kolam kecil sampai galatama",
+            },
+            {
+              title: "Repeat Order 70%",
+              desc: "Mayoritas pembeli kembali pesan",
+            },
+          ].map((item, i) => (
             <div
               key={i}
-              className="p-6 rounded-2xl bg-white shadow-lg text-slate-700 font-semibold"
+              className="p-8 rounded-2xl bg-white shadow-xl hover:-translate-y-1 transition"
             >
-              {v}
+              <h3 className="text-2xl font-extrabold bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent mb-2">
+                {item.title}
+              </h3>
+              <p className="text-slate-500 text-sm">{item.desc}</p>
             </div>
-          )
-        )}
+          ))}
+        </div>
       </div>
 
       {/* PRODUK */}
@@ -126,6 +146,15 @@ export default function Home() {
   bg-gradient-to-r from-red-500 to-red-600 text-white font-semibold shadow"
             >
               YouTube
+            </a>
+            <a
+              href="https://www.facebook.com/share/1BrUb33deu/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex justify-center items-center gap-3 px-10 py-4 rounded-full 
+  bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold shadow"
+            >
+              Facebook
             </a>
 
             <a

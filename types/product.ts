@@ -6,4 +6,5 @@ export type Product = {
   stock: number;
   description: string;
   images: string[];
+  isBestSeller?: boolean;
 };
