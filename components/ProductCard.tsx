@@ -61,8 +61,8 @@ export default function ProductCard({ product }: { product: Product }) {
               } dengan harga Rp ${product.price.toLocaleString("id-ID")}.`
             )}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full 
-              bg-gradient-to-r from-green-500 to-emerald-500 text-white text-sm font-medium 
-              opacity-0 group-hover:opacity-100 transition"
+bg-gradient-to-r from-green-500 to-emerald-500 text-white text-sm font-medium 
+opacity-100 md:opacity-0 md:group-hover:opacity-100 transition"
           >
             <MessageCircle size={16} />
             Pesan
