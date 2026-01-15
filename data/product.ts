@@ -4,7 +4,7 @@ export const products: Product[] = [
     id: 1,
     name: "ESSEN KAMFUNG PREMIUM 30 ML",
     category: "kolam/alam",
-    price: 50000,
+    price: 60000,
     stock: 12,
     isBestSeller: true,
 
@@ -15,7 +15,7 @@ export const products: Product[] = [
     id: 2,
     name: "ESSEN KAMFUNG PREMIUM 30 ML",
     category: "kolam/alam",
-    price: 50000,
+    price: 60000,
     stock: 25,
     isBestSeller: true,
 
@@ -26,7 +26,7 @@ export const products: Product[] = [
     id: 3,
     name: "ESSEN KAMFUNG PREMIUM 30 ML",
     category: "kolam/alam",
-    price: 50000,
+    price: 60000,
     stock: 25,
     isBestSeller: true,
 
@@ -37,7 +37,7 @@ export const products: Product[] = [
     id: 4,
     name: "ESSEN KAMFUNG PREMIUM 15 ML",
     category: "kolam/alam",
-    price: 35000,
+    price: 60000,
     stock: 25,
     isBestSeller: true,
 
@@ -48,7 +48,7 @@ export const products: Product[] = [
     id: 5,
     name: "ESSEN KAMFUNG PREMIUM 15 ML",
     category: "kolam/alam",
-    price: 35000,
+    price: 60000,
     stock: 25,
     isBestSeller: true,
 
@@ -59,7 +59,7 @@ export const products: Product[] = [
     id: 6,
     name: "ESSEN KAMFUNG PREMIUM 15 ML",
     category: "kolam/alam",
-    price: 35000,
+    price: 60000,
     stock: 25,
     isBestSeller: true,
 
@@ -70,7 +70,7 @@ export const products: Product[] = [
     id: 7,
     name: "ESSEN KAMFUNG PREMIUM 15 ML",
     category: "kolam/alam",
-    price: 35000,
+    price: 60000,
     stock: 25,
     isBestSeller: true,
 
@@ -81,7 +81,7 @@ export const products: Product[] = [
     id: 8,
     name: "ESSEN KAMFUNG PREMIUM 15 ML",
     category: "kolam/alam",
-    price: 35000,
+    price: 60000,
     stock: 25,
     isBestSeller: true,
 
@@ -92,7 +92,7 @@ export const products: Product[] = [
     id: 9,
     name: "ESSEN KAMFUNG PREMIUM 15 ML",
     category: "kolam/alam",
-    price: 35000,
+    price: 60000,
     stock: 25,
     isBestSeller: true,
 
@@ -103,7 +103,7 @@ export const products: Product[] = [
     id: 10,
     name: "ESSEN KAMFUNG PREMIUM 15 ML",
     category: "kolam/alam",
-    price: 35000,
+    price: 60000,
     stock: 25,
     isBestSeller: true,
 
@@ -114,7 +114,7 @@ export const products: Product[] = [
     id: 11,
     name: "ESSEN KAMFUNG PREMIUM 15 ML",
     category: "kolam/alam",
-    price: 35000,
+    price: 60000,
     stock: 25,
     isBestSeller: true,
 

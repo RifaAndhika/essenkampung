@@ -37,7 +37,7 @@ export default function Home() {
 
           <ul className="space-y-3 text-slate-600 mb-8">
             {[
-              "Meningkatkan nafsu makan ikan mas",
+              "Meningkatkan nafsu makan ikan",
               "Aroma tahan lama, tidak cepat basi",
               "Dipakai angler lomba & harian",
             ].map((v, i) => (
