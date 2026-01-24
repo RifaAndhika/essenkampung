@@ -57,7 +57,7 @@ export default function Home() {
 
             <a
               href={waLink(
-                "Halo, saya mau tanya essen ikan mas yang paling laris."
+                "Halo, saya mau tanya essen ikan mas yang paling laris.",
               )}
               className="px-7 py-3 rounded-full border border-green-400 text-green-600"
             >
@@ -91,7 +91,7 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-8 text-center">
           {[
             {
-              title: "25+ Botol Terjual",
+              title: "50+ Botol Terjual",
               desc: "Dipakai pemancing harian & lomba",
             },
             {
@@ -184,7 +184,7 @@ export default function Home() {
             const qty = formData.get("qty") as string;
 
             window.location.href = waLink(
-              `Halo, saya ${name} mau pesan Essen Varian ${varian} sebanyak ${qty} botol.`
+              `Halo, saya ${name} mau pesan Essen Varian ${varian} sebanyak ${qty} botol.`,
             );
           }}
           className="space-y-4"

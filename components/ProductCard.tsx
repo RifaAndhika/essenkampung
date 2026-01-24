@@ -47,6 +47,9 @@ export default function ProductCard({ product }: { product: Product }) {
           <p className="text-slate-500 text-sm line-clamp-2">
             {product.description}
           </p>
+          <p className="text-slate-500 text-sm line-clamp-2">
+            {product.category}
+          </p>
         </div>
 
         <div className="flex items-center justify-between">
@@ -58,7 +61,7 @@ export default function ProductCard({ product }: { product: Product }) {
             href={waLink(
               `Halo, saya mau pesan ${
                 product.name
-              } dengan harga Rp ${product.price.toLocaleString("id-ID")}.`
+              } dengan harga Rp ${product.price.toLocaleString("id-ID")}.`,
             )}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full 
 bg-gradient-to-r from-green-500 to-emerald-500 text-white text-sm font-medium 
