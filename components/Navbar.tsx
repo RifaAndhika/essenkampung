@@ -43,7 +43,7 @@ export default function Navbar() {
   const pathname = usePathname();
   const isHome = pathname === "/";
   const link = (hash: string) => (isHome ? hash : `/${hash}`);
-  const active = useActiveSection(["home", "produk", "blog", "sosial"]);
+  const active = useActiveSection(["home", "blog", "produk", "sosial"]);
   const [isTop, setIsTop] = useState(true);
 
   useEffect(() => {
@@ -54,8 +54,8 @@ export default function Navbar() {
 
   const navs = [
     { label: "Home", id: "home" },
-    { label: "Produk", id: "produk" },
     { label: "Testimoni", id: "blog" },
+    { label: "Produk", id: "produk" },
     { label: "Sosial Media", id: "sosial" },
   ];
 
@@ -87,7 +87,7 @@ export default function Navbar() {
             {/* CTA WA */}
             <a
               href={waLink(
-                "Halo, saya tertarik dengan essen ikan mas yang paling laris."
+                "Halo, saya tertarik dengan essen ikan mas yang paling laris.",
               )}
               className="ml-6 inline-flex items-center gap-2 px-6 py-2 rounded-full 
               bg-gradient-to-r from-green-500 to-emerald-500 text-white font-semibold shadow"
